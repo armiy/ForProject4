@@ -74,9 +74,5 @@ public class base3 {
         return driver;
     }
 
-    public static void main(String[] args) throws MalformedURLException {
-        base3 obj = new base3();
-        obj.WebDriverSetup(false,"browserstack","chrome","116","windows",
-                "https://www.ebay.com");
-    }
+
 }
