@@ -1,4 +1,4 @@
-package Base3Project3;
+package Base3Project4;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class base3 {
+public class base4 {
     public static WebDriver driver;
     String browserstackUserName = "";
     String browserstackAccessKey = "";
