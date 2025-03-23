@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/java/BfeatureProject4/searchAndVerify.feature"},
+        features = {"src/test/java/BfeatureProject4/searchAndVerify.feature","src/test/java/CsearchAndverifyStepsProject3/searchMultipleItemsSteps.java"},
         glue = {"CsearchAndverifyStepsProject3"},
         plugin = {"pretty","html:target/site/cucumber-pretty.html","json:target/cucumber/cucumber.json"},
         monochrome = true,

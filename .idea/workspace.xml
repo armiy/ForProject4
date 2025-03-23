@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5d21d19-f098-487d-bcf0-73088f7ca329" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DwebElementsProject4/webElementsProject4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerAll/runAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BfeatureProject4/searchMultipleItems.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CsearchAndverifyStepsProject3/searchMultipleItemsSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base3Project3/base3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base3Project4/base4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BfeatureProject3/searchAndVerify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BfeatureProject4/searchAndVerify.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CsearchAndverifyStepsProject3/searchAndVerifySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CsearchAndverifyStepsProject3/searchAndVerifySteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
