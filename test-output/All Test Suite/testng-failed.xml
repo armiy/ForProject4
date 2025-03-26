@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/armac/IdeaProjects/ebayProject4(failed)">
+    <classes>
+      <class name="RunnerAll.runAll">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- RunnerAll.runAll -->
+    </classes>
+  </test> <!-- C:/Users/armac/IdeaProjects/ebayProject4(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

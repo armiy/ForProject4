@@ -1,10 +1,11 @@
 package RunnerAll;
 
 import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 import org.junit.runner.RunWith;
 
-@RunWith(Cucumber.class)
+//@RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/java/BfeatureProject4/searchAndVerify.feature","src/test/java/CsearchAndverifyStepsProject3/searchMultipleItemsSteps.java"},
         glue = {"CsearchAndverifyStepsProject3"},
@@ -13,5 +14,5 @@ import org.junit.runner.RunWith;
         dryRun = false,
         tags =""
 )
-public class runAll {
+public class runAll extends AbstractTestNGCucumberTests {
 }

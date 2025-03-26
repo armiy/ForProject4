@@ -2,6 +2,7 @@ package CsearchAndverifyStepsProject3;
 
 import Base3Project4.base4;
 import DwebElementsProject4.webElementsProject4;
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -24,9 +25,14 @@ public void setUp() throws MalformedURLException {
                 "windows","https://www.ebay.com");
 
 }
+@After
+public void tearDown(){
+        driver.quit();
+}
 
     @When("users search for this {} in the search field")
     public void searchingBrand(String BrandName){
+
         getElements().searchBoysShoes(BrandName);
     }
     @And("users search for this Specific Product among list of products")
